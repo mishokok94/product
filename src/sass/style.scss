@@ -1,4 +1,4 @@
-@import 'base/variables';
+@import 'base/variables.scss';
 *{
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
@@ -6,7 +6,10 @@
     max-width: 950px;
     margin: 0 auto;
 }
-@import 'blocks/promo';
-@import 'blocks/header';
+@import 'blocks/promo.scss';
+@import 'blocks/header.scss';
 @import 'blocks/buttons.scss';
-@import 'blocks/advant';
+@import 'blocks/advant.scss';
+@import 'blocks/consultation.scss';
+@import 'blocks/titles.scss';
+@import 'blocks/forms.scss'
