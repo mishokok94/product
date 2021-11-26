@@ -1,0 +1,35 @@
+.review{
+    padding-bottom: 70px;
+    &__user{
+        display: flex;
+        margin-top: 100px;
+        &:nth-child(2){
+            margin-top: 78px;
+        }
+    }
+    &__img{
+        width: 169px;
+        height: 169px;
+    }
+    &__text{
+        margin-left: 62px;
+        padding-right: 60px;
+    }
+    &__subtitle{
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+    &__subtext{
+        color: #646464;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    &__description{
+        line-height: 24px;
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+}
