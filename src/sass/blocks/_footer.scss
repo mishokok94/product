@@ -1,0 +1,60 @@
+.footer{
+    height: 630px;
+    position: relative;
+    &__info{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 270px;
+        width: 460px;
+        background-color: $main-color ;
+        padding: 50px 68px 60px 68px;
+    }
+    &__addr{
+        margin-bottom: 36px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    &__phone{
+        display: block;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        color: #FFFFFF;
+        text-decoration: none;
+        text-align: center;
+        &:hover{
+            color: #FFFFFF;
+        }
+        }
+        &__social-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 53px;
+            height: 52px;
+            margin: 0 15px;
+            &:hover{
+                box-shadow: 1px 1px 20px #FFFFFF ;
+                
+                transition: 0.6s all;
+              
+            }
+            img{
+                height:50px;
+            }
+
+            
+        }
+        &__social{
+            margin-top: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+}

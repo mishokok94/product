@@ -63,3 +63,5 @@
       toggleSlide('.catalog-item__back');
 
   });
+
+  
