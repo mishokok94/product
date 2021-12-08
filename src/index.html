@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css.map">
     <title>Document</title>
@@ -34,17 +35,17 @@
             <h2 class="promo__Subheader">С УЧЕТОМ ВАШЕГО УРОВНЯ ПОДГОТОВКИ</h2>
             <div class="promo__icons">
                 <div class="promo__icon">
-                    <img src="icons/pulse/019_timer_time_stopwatch_2-64.png" alt="logo">
+                    <img src="icons/pulse/019timertimestopwatch264.png" alt="logo">
                     Время подбора
                     :10 минут
                 </div>
                 <div class="promo__icon">
-                    <img src="icons/pulse/app 08 hand cart 64.png" alt="logo">
+                    <img src="icons/pulse/app08hanart64.png" alt="logo">
                     Бесплатная 
                     доставка
                 </div>
                 <div class="promo__icon">
-                    <img src="icons/pulse/messages 64.png" alt="logo">
+                    <img src="icons/pulse/messages64.png" alt="logo">
                     Ответим 
                     на все вопросы
                 </div>
@@ -65,7 +66,7 @@
             <h2 class="advant__header">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="advant__blocks">
                 <div class="advant__block">
-                <img src="icons/section2/cup.png" alt="cup" class="advant__img">
+                <img src="icons/section2/cup.png" alt="cup" class="advant__img advant__img_cup">
                 <div class="advant__subheader">Делимся опытом</div>
                 <div class="advant__descr">
                 Наши сотрудники всегда готовы 
@@ -76,7 +77,7 @@
                 </div>
                 </div>
                 <div class="advant__block">
-                <img src="icons/section2/heart.png" alt="heart" class="advant__img">
+                <img src="icons/section2/heart.png" alt="heart" class="advant__img advant__img_animated">
                 <div class="advant__subheader">Заботимся о здоровье</div>
                 <div class="advant__descr">
                 Мы работаем для того, чтобы 
@@ -86,7 +87,7 @@
                 </div>
                 </div>
                 <div class="advant__block">
-                <img src="icons/section2/shoe.png" alt="shoe" class="advant__img">
+                <img src="icons/section2/shoe.png" alt="shoe" class="advant__img advant__img_shoes ">
                 <div class="advant__subheader">Учим бегать</div>
                 <div class="advant__descr">
                 Помогаем с обучением правильной технике бега! <br>
@@ -119,7 +120,7 @@
                     </form> 
             </div>
         </section>
-        <section class="carousel">
+        <div class="carousel">
             <div class="container">
                 <div class="carousel__inner">
                     <div>
@@ -135,7 +136,7 @@
 
               </div>
 
-        </section>
+        </div>
     <section class="catalog" id="catal-link">
             <div class="container">
                 <h2 class="title">КАТАЛОГ ПУЛЬСОМЕТРОВ</h2>
@@ -167,7 +168,8 @@
                                 </li>
                                 <li>Также Вы увидите информацию о расходе калорий за тренировку;
                                 </li>
-                                <a href="#" class="catalog-item__back">Назад</a>
+                               <li style="list-style:none" > <a href="#" class="catalog-item__back">Назад</a>
+                            </li>
                             </ul>
                         </div>
                         <hr>
@@ -420,7 +422,7 @@
         <section class="review">
             <div class="container">
                 <h2 class="title">отзывы клиентов</h2>
-                <div class="review__user">
+                <div class="review__user animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="img/reviews/photo_1.png" alt="user1" class="review__img">
                     <div class="review__text">
                     <div class="review__subtitle">Ирина Иванченко </div>
@@ -436,7 +438,7 @@
                 </div>
                     
 
-                    <div class="review__user">
+                    <div class="review__user animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                         <img src="img/reviews/photo_2.png" alt="user2" class="review__img">
                         <div class="review__text">
                         <div class="review__subtitle">Иван Сёмочкин</div>
@@ -450,7 +452,7 @@
                     </div>
 
                     </div>
-                    <div class="review__user">
+                    <div class="review__user animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                         <img src="img/reviews/photo_3.png" alt="user3" class="review__img">
                         <div class="review__text">
                         <div class="review__subtitle">Юлия Дашкина</div>
@@ -471,7 +473,7 @@
         </section>
         <footer class="footer">
        
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.4303074593986!2d37.64480731604679!3d55.76839799825632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEwNzA3OA!5e0!3m2!1sru!2s!4v1637938308736!5m2!1sru!2s" width="100%" height="630" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.4303074593986!2d37.64480731604679!3d55.76839799825632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEwNzA3OA!5e0!3m2!1sru!2s!4v1637938308736!5m2!1sru!2s" allowfullscreen="" loading="lazy"></iframe>
 
             <div class="footer__info">
                 <address class="footer__addr">Москва, Мясницкий проезд, д.3с1</address>
@@ -530,6 +532,7 @@
         <script src="js/slick.min.js"></script> 
         <script src="js/jquery.validate.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+        <script src="js/wow.min.js"></script>
         <script src="js/script.js" ></script>
 </body>
 </html>

@@ -135,10 +135,15 @@
             padding-left: 19px;
             margin-bottom: 0px;
             list-style-type: none;
+            .dot{
+                list-style-type: none;
+            }
+
             &_active{
                 transform: translateX(-100%);
                 margin-left: 0px;
             }
+            
             li{
                 position: relative;
                 color: #555555;
@@ -154,12 +159,13 @@
                     left: -14px;
                     top: 7px;
                 }
+
             }
         }
 
             &__back{
                 position: absolute;
-                bottom: 0;
+                bottom: -130px;
                 left: 50%;
                 transform: translateX(calc(-50% - 19px));
                 display: block;

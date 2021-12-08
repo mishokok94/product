@@ -36,6 +36,31 @@
             }
         }
 
+        &__img{
+            &_animated{
+                animation: heartbit 3.5s ease infinite;
+                
+                &:hover{
+                    animation-play-state: paused;
+                }
+           
+            }
+            &_shoes {
+                animation: shoes 7.5s ease infinite;
+                &:hover{
+                    animation-play-state: paused;
+                }
+                
+            }
+            &_cup{
+                animation: kups 7.5s ease infinite;
+                &:hover{
+                    animation-play-state: paused;
+                }
+
+            }
+        }
+
 
     
 }
